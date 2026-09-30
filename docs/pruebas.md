@@ -218,8 +218,8 @@ Versión de la app: 1.0.0.18 (build debug de la rama)
 - **Pasos:**
   1. Abrir `shared/src/commonTest/.../streetfighter/SfFinisherTest.kt`.
   2. Presionar el botón de ejecutar junto a `class SfFinisherTest` y elegir Run.
-- **Resultado esperado:** 18 tests aprobados (lectura de comandos, rangos, catálogo, efectos, flechas volteadas, zona de la jerga y progreso de pasos).
-- **Resultado real:**
+- **Resultado esperado:** 19 tests aprobados (lectura de comandos, rangos, catálogo, efectos, flechas volteadas, zona de la jerga y progreso de pasos).
+- **Resultado real:** `../evidencias/CP-10_tests_19_passed.png`
 - **Estado:**
 - **Evidencia:**
 - **Nota:** `gradlew.bat` no se pudo ejecutar localmente porque falta `gradle-wrapper.jar` en la copia del repositorio (limitación del entorno, no del cambio). Se ejecutó la misma tarea `:shared:testAndroidHostTest` desde Android Studio. Los checks del PR quedan pendientes de aprobación del mantenedor.
@@ -228,7 +228,7 @@ Versión de la app: 1.0.0.18 (build debug de la rama)
 
 | ID | Descripción | Pasos | Esperado vs observado | Severidad | Estado |
 |---|---|---|---|---|---|
-| | | | | | |
+| H-1 | En el Extraordinario del Charro Negro el peleador se hunde bajo el escenario durante el primer segundo y luego vuelve a subir. | CP-01 o CP-02 con El Charro Negro: meter el comando y observar el inicio de la cinemática. | Esperado: el Charro se mantiene sobre el piso. Observado: se dibuja 96 px más abajo. Causa: los cuadros de TALK de los 18 peleadores tienen el origen en y=128 en lugar de y=224 (defecto de datos preexistente). | Baja (solo visual) | Corregido: la cinemática usa TAUNT en lugar de TALK y un test impide volver a usar TALK. El defecto de datos de TALK queda como preexistente. |
 
 Avisos preexistentes (también aparecen en `main`, no son del cambio): advertencias `AGPBI ... is deprecated` al compilar y el mensaje `google-services.json NO encontrado`.
 
