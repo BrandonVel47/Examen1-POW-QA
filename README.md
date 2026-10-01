@@ -7,8 +7,8 @@ Escuela Superior de Cómputo, IPN
 
 | Integrante | Usuario de GitHub | PR |
 |---|---|---|
-| Brandon `<apellidos>` | [BrandonVel47](https://github.com/BrandonVel47) | [#151](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/151) |
-| `<nombre del compañero>` | `<usuario>` | `<liga a su PR>` |
+| Brandon Velazquez Beltran | [BrandonVel47](https://github.com/BrandonVel47) | [#151](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/151) |
+| Julio Cesar Caballero Perez | [JulioCesarCaballero](https://github.com/JulioCesarCaballero) | [#149](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/149) |
 
 Las boletas y datos de identificación escolar se registran en Classroom, no en este repositorio.
 
@@ -98,7 +98,7 @@ El detalle de cada caso (pasos, esperado, real y evidencia) está en [docs/prueb
 | Rol | Persona | Enlace | Estado |
 |---|---|---|---|
 | Revisión recibida en mi PR | `<usuario>` | `<liga al comentario de revisión>` | Pendiente |
-| Revisión que hice a otro PR | `<PR revisado>` | `<liga a mi comentario>` | Pendiente |
+| Revisión que hice a otro PR | #149 (JulioCesarCaballero) | https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/149#pullrequestreview-5375785108 | Realizada |
 
 `<Al terminar: resumen de las observaciones recibidas, cómo se respondió cada una y si hubo commits nuevos.>`
 
@@ -115,16 +115,14 @@ Riesgos que permanecen: compatibilidad no verificada en otro idioma o dispositiv
 | SHA | Mensaje |
 |---|---|
 | `2f4c724` | Agrega Remate Final estilo MK para Tzitzimime, Llorona y Charro Negro |
-| `<SHA>` | feat(sf): add Resit Exam practice logic for Extraordinary moves |
-| `<SHA>` | feat(sf): add Resit Exam menu, steps panel and pixel-art jerga |
+| `cd6b72131209b715c67e4f0f7b41fa2f7e32b523` | feat(sf): add Resit Exam practice logic for Extraordinary moves |
+| `f80d19f06f565cdfddeb01da9a20c387fb326d9c` | feat(sf): add Resit Exam menu, steps panel and pixel-art jerga |
 | `214a48c` | fix(sf): stop Charro Negro sinking into the floor at the start of his Extraordinary |
 | `c303ce3` | fix(sf): let Resit Exam buttons grow with large system font |
 
-`<Ajusta los mensajes y SHA con tu pestaña History; si hiciste un solo commit para el modo, deja una fila.>`
-
 **Casos ejecutados:** CP-01 a CP-07 (todos por BrandonVel47).
 
-**Revisión realizada:** `<liga a la revisión que hiciste a otro PR>`
+**Revisión realizada:** [#149 (JulioCesarCaballero)](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/149#pullrequestreview-5375785108)
 
 ## Uso de herramientas de IA
 
